@@ -1,0 +1,9 @@
+{
+  "name": "task-progress",
+  "version": "0.2.1",
+  "description": "Panneau repliable : une barre de progression par tâche de Claude, plus une barre globale de session.",
+  "author": { "name": "Teamfliyou" },
+  "license": "MIT",
+  "keywords": ["progress", "tasks", "ui", "pane"],
+  "types": "./types/index.d.ts"
+}

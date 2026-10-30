@@ -1,0 +1,9 @@
+{
+  "name": "relais",
+  "version": "0.2.0",
+  "description": "/relais génère un résumé de passage de relais de la session (RELAIS.md + chat) ; /reprendre le relit dans une nouvelle session.",
+  "author": {
+    "name": "Teamfliyou"
+  },
+  "license": "MIT"
+}

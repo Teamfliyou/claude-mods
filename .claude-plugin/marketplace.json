@@ -1,0 +1,48 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Teamfliyou"
+  },
+  "metadata": {
+    "description": "Mods pour Claude Code : panneau de progression, bande de raccourcis, passage de relais"
+  },
+  "plugins": [
+    {
+      "name": "task-progress",
+      "source": "./plugins/task-progress",
+      "description": "Panneau repliable : une barre de progression par tâche de Claude, plus une barre globale de session.",
+      "version": "0.2.1",
+      "license": "MIT",
+      "keywords": [
+        "progress",
+        "tasks",
+        "ui",
+        "pane"
+      ]
+    },
+    {
+      "name": "mod-bar",
+      "source": "./plugins/mod-bar",
+      "description": "Bande de raccourcis au-dessus de la zone de saisie : un bouton par mod (commande slash).",
+      "version": "0.2.1",
+      "license": "MIT",
+      "keywords": [
+        "launcher",
+        "shortcuts",
+        "ui"
+      ]
+    },
+    {
+      "name": "relais",
+      "source": "./plugins/relais",
+      "description": "/relais génère un résumé de passage de relais de la session (RELAIS.md) ; /reprendre le relit dans une nouvelle session.",
+      "version": "0.2.0",
+      "license": "MIT",
+      "keywords": [
+        "handoff",
+        "summary",
+        "session"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mod-bar",
+  "version": "0.2.1",
+  "description": "Bande de raccourcis au-dessus de la zone de saisie : un bouton par mod (commande slash) à lancer en un clic.",
+  "author": {
+    "name": "Teamfliyou"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "shortcuts": {
+      "type": "string",
+      "title": "Raccourcis",
+      "description": "Commandes slash à afficher comme boutons, séparées par des virgules, sans le « / » (ex. progress,autre-mod).",
+      "default": "progress,relais"
+    }
+  }
+}
